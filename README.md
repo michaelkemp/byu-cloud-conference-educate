@@ -25,8 +25,6 @@
             aws_access_key_id=QWERTYUIOPASDFGHJKL
             aws_secret_access_key=tHisIsnOtanActUal/Key
             aws_session_token=Vy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSxVy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSxVy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSx
-```
-
 
 ## Linux, Mac, Windows (via WSL)
 
@@ -60,7 +58,6 @@
                 PATH="$HOME/.local/bin:$PATH"
             fi
         source .bashrc
-    ```
 - Install [Terraform](https://www.terraform.io/downloads.html)
     - ```curl "https://releases.hashicorp.com/terraform/0.14.6/terraform_0.14.6_linux_amd64.zip" -o "terraform.zip"```
     - ```unzip terraform.zip```
