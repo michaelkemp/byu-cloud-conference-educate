@@ -25,7 +25,7 @@
             aws_access_key_id=QWERTYUIOPASDFGHJKL
             aws_secret_access_key=tHisIsnOtanActUal/Key
             aws_session_token=Vy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSxVy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSxVy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSx
-        ```
+```
 
 
 ## Linux, Mac, Windows (via WSL)
