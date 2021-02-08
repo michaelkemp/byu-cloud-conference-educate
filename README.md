@@ -20,14 +20,12 @@
     - Open the terminal in Mac/Linux or open WSL in MS Windows 
     - ```mkdir ~/.aws```
     - ```vim ~/.aws/credentials```
-        - ```
-            [default]
+        - ```[default]
             aws_access_key_id=QWERTYUIOPASDFGHJKL
             aws_secret_access_key=tHisIsnOtanActUal/Key
             aws_session_token=Vy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeL
             SxVy0suaL4NT1PrSLaPLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSxVy0suaL4NT1PrSLa
-            PLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSx
-```
+            PLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxeLSx```
 
 ## Linux, Mac, Windows (via WSL)
 
