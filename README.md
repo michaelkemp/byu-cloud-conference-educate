@@ -35,8 +35,10 @@ PLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxe
 - Terraform is an Infrastructure as Code (IaC) language that allows easy, repeatable creation of infrastructure.
 - The terraform scripts in this repo create:
     - Linux EC2 Instances in each US-East-1 Subnet
-    - A Security Group that allows SSH access to the EC2 Instances from Local IP
     - A Key Pair for SSH Access
+    - MySQL RDS Instances in each US-East-1 Subnet
+    - A Random Password for MySQL Access
+    - A Security Group that allows SSH  access to the EC2 Instances from Local IP
 
 ## Setting Up Windows with Windows Subsystem for Linux (WSL)
 
