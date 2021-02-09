@@ -17,3 +17,13 @@ resource "aws_default_subnet" "default" {
     Name = "Default SUBNET ${each.key}"
   }
 }
+
+############ RDS SUBNET GROUP ############
+data "aws_subnet_ids" "default" {
+  vpc_id = aws_default_vpc.default.id
+}
+
+resource "aws_db_subnet_group" "db-subnet-group" {
+  name       = "db-subnet-group"
+  subnet_ids = data.aws_subnet_ids.default.ids
+}

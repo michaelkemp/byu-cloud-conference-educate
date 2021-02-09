@@ -4,9 +4,9 @@ data "external" "ipify" {
 }
 
 ############ SSH FROM MY IP SECURITY GROUP ############
-resource "aws_security_group" "SSH" {
-  name        = "SSH"
-  description = "SSH Security Group"
+resource "aws_security_group" "SSH-MYSQL" {
+  name        = "SSH-MYSQL"
+  description = "SSH-MYSQL Security Group"
   vpc_id      = aws_default_vpc.default.id
   ingress {
     from_port   = 22
@@ -14,6 +14,13 @@ resource "aws_security_group" "SSH" {
     protocol    = "TCP"
     cidr_blocks = ["${data.external.ipify.result.ip}/32"]
     description = "SSH From My IP"
+  }
+  ingress {
+    from_port   = 3306
+    to_port     = 3306
+    protocol    = "TCP"
+    cidr_blocks = ["${data.external.ipify.result.ip}/32"]
+    description = "MySQL From My IP"
   }
   egress {
     from_port   = 0

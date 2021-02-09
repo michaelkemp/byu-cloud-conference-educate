@@ -23,7 +23,7 @@ resource "aws_instance" "linux" {
   subnet_id                   = each.value.id
   associate_public_ip_address = true
   key_name                    = aws_key_pair.generated_key.key_name
-  vpc_security_group_ids      = [aws_security_group.SSH.id]
+  vpc_security_group_ids      = [aws_security_group.SSH-MYSQL.id]
   user_data                   = <<-EOF
     #!/bin/bash
     yum update -y && yum upgrade -y
@@ -32,20 +32,20 @@ resource "aws_instance" "linux" {
 
 ############ OUTPUT CONNECTION INFO ############
 locals {
-  logins = [
+  ec2logins = [
     for instance in aws_instance.linux:
       "ssh -i ${aws_key_pair.generated_key.key_name}.pem ec2-user@${instance.public_ip}"
   ]
 }
 
-output "information" {
+output "ec2-info" {
   value = <<-EOF
   
-    # Change key security and log into NAT Instance
+    # Change key security to log into Instances
     chmod 400 ${aws_key_pair.generated_key.key_name}.pem
     
-    # Log in to instances
-    ${join("\n",local.logins)}
+    # EC2 Login Strings
+    ${join("\n",local.ec2logins)}
 
   EOF
 }

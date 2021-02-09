@@ -15,3 +15,14 @@ for r in response['Reservations']:
                 print(stop)
             except:
                 print("oops")
+
+rds = session.client('rds',region_name=region)
+response = rds.describe_db_instances()
+for r in response['DBInstances']:
+    if r["DBInstanceStatus"] == "available":
+        try:
+            stop = rds.stop_db_instance(DBInstanceIdentifier=r["DBInstanceIdentifier"])
+            print(stop)
+        except:
+            print("oops")
+
