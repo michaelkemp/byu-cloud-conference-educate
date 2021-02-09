@@ -34,9 +34,9 @@ PLZAT8fgbNpwhw07ByUvBZ6F0BSITkbUyrIOFUdQu6HDYVhskoQt4OGvTzi0PdLQwvI8FNnMrkESlFxe
 - If you run MS Windows, follow the instuctions below to install WSL
 - Terraform is an Infrastructure as Code (IaC) language that allows easy, repeatable creation of infrastructure.
 - The terraform scripts in this repo create:
-    - A Linux Instance in the Private Subnet
-    - An RDS Database
-    - The security groups
+    - Linux EC2 Instances in each US-East-1 Subnet
+    - A Security Group that allows SSH access to the EC2 Instances from Local IP
+    - A Key Pair for SSH Access
 
 ## Setting Up Windows with Windows Subsystem for Linux (WSL)
 

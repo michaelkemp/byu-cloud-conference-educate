@@ -12,7 +12,7 @@ data "aws_ami" "amazon-linux" {
   }
 }
 
-############ EC2 INSTANCE ############
+############ EC2 INSTANCES ############
 resource "aws_instance" "linux" {
   for_each      = aws_default_subnet.default
   ami           = data.aws_ami.amazon-linux.id
@@ -30,6 +30,7 @@ resource "aws_instance" "linux" {
   EOF
 }
 
+############ OUTPUT CONNECTION INFO ############
 locals {
   logins = [
     for instance in aws_instance.linux:
@@ -37,9 +38,9 @@ locals {
   ]
 }
 
-############ OUTPUT NAT CONNECTION INFO ############
 output "information" {
   value = <<-EOF
+  
     # Change key security and log into NAT Instance
     chmod 400 ${aws_key_pair.generated_key.key_name}.pem
     
