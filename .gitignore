@@ -8,6 +8,12 @@
 # Crash log files
 crash.log
 
+# Don't Commit Keys
+*.pem
+
+# Don't Commit Terraform Lock
+*.terraform*
+
 # Ignore any .tfvars files that are generated automatically for each Terraform run. Most
 # .tfvars files are managed as part of configuration and so should be included in
 # version control.
