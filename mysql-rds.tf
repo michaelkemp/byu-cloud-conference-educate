@@ -13,7 +13,7 @@ resource "aws_db_instance" "mysql" {
     storage_type           = "gp2"
     engine                 = "mysql"
     engine_version         = "5.7"
-    instance_class         = "db.t2.micro"
+    instance_class         = var.rds_type
     username               = "admin"
     password               = random_password.rds-password.result
     db_subnet_group_name   = aws_db_subnet_group.db-subnet-group.name

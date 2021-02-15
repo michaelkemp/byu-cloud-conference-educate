@@ -16,7 +16,7 @@ data "aws_ami" "amazon-linux" {
 resource "aws_instance" "linux" {
   for_each      = aws_default_subnet.default
   ami           = data.aws_ami.amazon-linux.id
-  instance_type = "t2.micro"
+  instance_type = var.ec2_type
   tags = {
     Name = "Linux"
   }
