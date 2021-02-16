@@ -13,6 +13,7 @@
 ## Enable Command Line Connections to your Educate Account
 
 - Log in to [https://www.awseducate.com](https://www.awseducate.com)
+    - ![Log in to AWS Educate](images/educate-01.png?raw=true "Log in to AWS Educate")
 - Click the *My Classrooms* link at the top of the page
 - Click the *Go to classroom* button alongside your desired classroom - Click *Continue*
 - Under the *Your AWS Account Status* area, click the *Account Details* button
