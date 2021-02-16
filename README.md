@@ -7,7 +7,7 @@
         - [Python/Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
         - [AWS CLI](https://aws.amazon.com/cli/)
         - [Terraform](https://www.terraform.io/)
-- Saving money by shutting down EC2 and RDS [calculator.aws](https://calculator.aws/)
+- Saving money by shutting down EC2 and RDS - [calculator.aws](https://calculator.aws/)
 - Saving money by deleting infrastructure
 
 ## Logging in to AWS Educate Console
