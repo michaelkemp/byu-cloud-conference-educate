@@ -9,12 +9,14 @@
         - [Terraform](https://www.terraform.io/)
 - Saving money by shutting down EC2 and RDS - [calculator.aws](https://calculator.aws/)
 - Saving money by deleting infrastructure
+- Limitations - no *Cost Explorer*
+
 
 ## Enable Command Line Connections to your Educate Account
 
 - Log in to [https://www.awseducate.com](https://www.awseducate.com)
     - ![Log in to AWS Educate](images/educate-01.png?raw=true "Log in to AWS Educate")
-- Enter your login
+- Enter your login details
     - ![Enter Login Details](images/educate-02.png?raw=true "Enter Login Details")
 - Click the *My Classrooms* link at the top of the page
     - ![Click My Classrooms](images/educate-03.png?raw=true "Click My Classrooms")
@@ -31,7 +33,7 @@
 
 - Log in to [https://www.awseducate.com](https://www.awseducate.com)
     - ![Log in to AWS Educate](images/educate-01.png?raw=true "Log in to AWS Educate")
-- Enter your login
+- Enter your login details
     - ![Enter Login Details](images/educate-02.png?raw=true "Enter Login Details")
 - Click the *My Classrooms* link at the top of the page
     - ![Click My Classrooms](images/educate-03.png?raw=true "Click My Classrooms")
@@ -54,6 +56,7 @@
     - MySQL RDS Instances in each US-East-1 Subnet
     - A Random Password for MySQL Access
     - A Security Group that allows SSH access to the EC2 Instances from Local IP
+- Python script to stop/start EC2 and RDS instances via the commandline
 
 ## Setting Up Windows with Windows Subsystem for Linux (WSL)
 
