@@ -10,20 +10,13 @@
 - Saving money by shutting down EC2 and RDS - [calculator.aws](https://calculator.aws/)
 - Saving money by deleting infrastructure
 
-## Logging in to AWS Educate Console
-
-- Log in to [https://www.awseducate.com](https://www.awseducate.com)
-- Click the *My Classrooms* link at the top of the page
-- Click the *Go to classroom* button alongside your desired classroom - Click *Continue*
-- Under the *Your AWS Account Status* area, click the *AWS Console* button to log into the console.
-    - At the top right; ensure the region you are in is *N. Virginia*
-
 ## Enable Command Line Connections to your Educate Account
 
 - Log in to [https://www.awseducate.com](https://www.awseducate.com)
     - ![Log in to AWS Educate](images/educate-01.png?raw=true "Log in to AWS Educate")
-- Click the *My Classrooms* link at the top of the page
+- Enter your login
     - ![Enter Login Details](images/educate-02.png?raw=true "Enter Login Details")
+- Click the *My Classrooms* link at the top of the page
     - ![Click My Classrooms](images/educate-03.png?raw=true "Click My Classrooms")
 - Click the *Go to classroom* button alongside your desired classroom - Click *Continue*
     - ![Click Go to classroom](images/educate-04.png?raw=true "Click Go to classroom")
@@ -38,8 +31,9 @@
 
 - Log in to [https://www.awseducate.com](https://www.awseducate.com)
     - ![Log in to AWS Educate](images/educate-01.png?raw=true "Log in to AWS Educate")
-- Click the *My Classrooms* link at the top of the page
+- Enter your login
     - ![Enter Login Details](images/educate-02.png?raw=true "Enter Login Details")
+- Click the *My Classrooms* link at the top of the page
     - ![Click My Classrooms](images/educate-03.png?raw=true "Click My Classrooms")
 - Click the *Go to classroom* button alongside your desired classroom - Click *Continue*
     - ![Click Go to classroom](images/educate-04.png?raw=true "Click Go to classroom")
