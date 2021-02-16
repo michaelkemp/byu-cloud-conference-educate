@@ -9,6 +9,7 @@
         - [Terraform](https://www.terraform.io/)
 - Saving money by shutting down EC2 and RDS - [calculator.aws](https://calculator.aws/)
 - Saving money by deleting infrastructure
+- [Supported Services](https://awseducate-starter-account-services.s3.amazonaws.com/AWS_Educate_Starter_Account_Services_Supported.pdf)
 - Limitations - no *Cost Explorer*
 
 
