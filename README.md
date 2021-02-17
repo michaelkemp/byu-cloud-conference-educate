@@ -56,10 +56,13 @@
 - Terraform is an Infrastructure as Code (IaC) language that allows easy, repeatable creation of infrastructure.
 - The terraform scripts in this repo create:
     - Linux EC2 Instances in each US-East-1 Subnet
+        - Current EC2 Linux pricing *t2.micro* $0.0116/hour ($1.95/week)
     - A Key Pair for SSH Access
     - MySQL RDS Instances in each US-East-1 Subnet
+        - Current RDS MySQL pricing *db.t3.micro* $0.017/hour ($2.86/week)
     - A Random Password for MySQL Access
     - A Security Group that allows SSH access to the EC2 Instances from Local IP
+    
 - Python script to stop/start EC2 and RDS instances via the commandline
 
 ## Setting Up Windows with Windows Subsystem for Linux (WSL)
