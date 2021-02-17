@@ -9,6 +9,8 @@
         - [AWS CLI](https://aws.amazon.com/cli/)
         - [Terraform](https://www.terraform.io/)
 - Saving money by shutting down EC2 and RDS - [calculator.aws](https://calculator.aws/)
+    - [On Demand EC2 Pricing](https://aws.amazon.com/ec2/pricing/on-demand/)
+    - [MySQL RDS Pricing](https://aws.amazon.com/rds/mysql/pricing/)
 - Saving money by deleting infrastructure
 - [Supported Services](https://awseducate-starter-account-services.s3.amazonaws.com/AWS_Educate_Starter_Account_Services_Supported.pdf)
 - Limitations - no *Cost Explorer*, no *billing*
