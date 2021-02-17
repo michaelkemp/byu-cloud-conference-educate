@@ -1,8 +1,8 @@
 # Cloud Conference - AWS Educate Accounts
 
 - [BYU Cloud Office](https://cloud.byu.edu/)
-- Logging in
-- Creating infrastructure
+- Logging in to AWS Educate
+- Creating infrastructure in your Educate Account
     - Console
     - Command Line
         - [Python/Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
@@ -11,7 +11,7 @@
 - Saving money by shutting down EC2 and RDS - [calculator.aws](https://calculator.aws/)
 - Saving money by deleting infrastructure
 - [Supported Services](https://awseducate-starter-account-services.s3.amazonaws.com/AWS_Educate_Starter_Account_Services_Supported.pdf)
-- Limitations - no *Cost Explorer*
+- Limitations - no *Cost Explorer*, no *billing*
 
 
 ## Enable Command Line Connections to your Educate Account
